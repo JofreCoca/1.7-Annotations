@@ -1,4 +1,6 @@
 package Level_1_Exercise_1.Main;
+import Level_1_Exercise_1.Modules.OnSiteWorker;
+import Level_1_Exercise_1.Modules.WorkerOnline;
 
 public class Main {
     public static void main(String[] args) {

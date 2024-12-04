@@ -1,4 +1,4 @@
-package Level_1_Exercise_1.Main.Modules;
+package Level_1_Exercise_1.Modules;
 
 public abstract class Worker {
 
