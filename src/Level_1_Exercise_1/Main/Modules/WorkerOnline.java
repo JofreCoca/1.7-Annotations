@@ -1,4 +1,4 @@
-package Modules;
+package Level_1_Exercise_1.Main.Modules;
 
 public class WorkerOnline extends Worker{
 
