@@ -18,9 +18,8 @@ public class OnSiteWorker extends Worker {
 
     @Deprecated
     public static void oldMethod() {
-        System.out.println("Old method deprecated");
         Date date = new Date();
         int year = date.getYear();
-        System.out.println(date.getYear());
+        System.out.println("Old method deprecated: date.getYear()="+date.getYear());
     }
 }
