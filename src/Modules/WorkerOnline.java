@@ -1,3 +1,5 @@
+package Modules;
+
 public class WorkerOnline extends Worker{
 
     private final float flatRateInternet;

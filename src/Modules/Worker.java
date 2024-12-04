@@ -1,3 +1,5 @@
+package Modules;
+
 public abstract class Worker {
 
     protected String name;
