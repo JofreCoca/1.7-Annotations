@@ -3,6 +3,7 @@ import Level_1_Exercise_2.Modules.OnSiteWorker;
 import Level_1_Exercise_2.Modules.WorkerOnline;
 
 public class Main {
+
     @SuppressWarnings("deprecation")
     public static void main(String[] args) {
         WorkerOnline workerOnline=new WorkerOnline("Pepe","Lopez",15);
