@@ -1,6 +1,5 @@
 package Level_1_Exercise_2.Modules;
 
-import javax.sound.midi.Sequencer;
 import java.util.Date;
 
 public class OnSiteWorker extends Worker {
