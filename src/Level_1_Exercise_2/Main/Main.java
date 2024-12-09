@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Pepe's salary is "+workerOnline.calculateSalary(22));
         System.out.println("Antonio's salary is "+onSiteWorker.calculateSalary(16));
 
+        WorkerOnline.oldMethod();
         OnSiteWorker.oldMethod();
     }
 }

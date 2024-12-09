@@ -11,6 +11,14 @@ public class OnSiteWorker extends Worker {
         super(name, lastName, priceHour);
     }
 
+    public static float getOil() {
+        return oil;
+    }
+
+    public static void setOil(float oil) {
+        OnSiteWorker.oil = oil;
+    }
+
     @Override
     public float calculateSalary(float hoursWorked){
         return (hoursWorked*super.priceHour)+ oil;

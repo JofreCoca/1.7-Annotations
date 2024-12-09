@@ -12,6 +12,30 @@ public abstract class Worker {
         this.priceHour = priceHour;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public float getPriceHour() {
+        return priceHour;
+    }
+
+    public void setPriceHour(float priceHour) {
+        this.priceHour = priceHour;
+    }
+
     public abstract float calculateSalary(float hoursWorked);
 
 }
